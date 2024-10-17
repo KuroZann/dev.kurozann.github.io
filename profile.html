@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <title>
+    Profile Page
+  </title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+        <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+    }
+    .header {
+      position: relative;
+    }
+    .header img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #121212;
+      position: absolute;
+      bottom: -50px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 60px;
+    }
+    .verified {
+      color: #1DA1F2;
+    }
+    .bio {
+      font-size: 14px;
+      color: #b3b3b3;
+    }
+    .tags {
+      margin: 20px 0;
+    }
+    .tag {
+      display: inline-block;
+      background-color: #1e1e1e;
+      border-radius: 20px;
+      padding: 5px 15px;
+      margin: 5px;
+      font-size: 14px;
+      color: #ffffff;
+    }
+    .tag i {
+      margin-right: 5px;
+    }
+    .social-icons {
+      margin: 20px 0;
+    }
+    .social-icons i {
+      font-size: 24px;
+      margin: 0 10px;
+      color: #ffffff;
+    }
+    .links {
+      text-align: left;
+      margin: 20px 0;
+    }
+    .link {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .link i {
+      margin-right: 10px;
+    }
+    .spotify {
+      margin: 20px 0;
+      font-size: 14px;
+      color: #b3b3b3;
+    }
+    .spotify i {
+      color: #1DB954;
+      margin-right: 5px;
+    }
+  </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img alt="Background image" height="100" src="https://files.catbox.moe/0noswb.jpg" width="100">
+                <div class="profile-pict-container">
+                    <div class="profile-pict">
+                        <img alt="Profile picture" class="profile-pic" height="100" src="https://files.catbox.moe/0noswb.jpg" width="100">
+                    </div>
+                </div>
+            </div>
+            <div class="name">
+                 Fawuzan つ内 <i class="fas fa-check-circle verified"> </i>
+            </div>
+            <div class="bio">
+                 あなたが行くなら私はここに残る 
+            </div>
+            <div class="tags">
+                <div class="tag"><i class="fas fa-laptop-code"> </i> Ngoding 
+                </div>
+                <div class="tag"><i class="fas fa-bed"> </i> Turu 
+                </div>
+                <div class="tag"><i class="fas fa-tv"> </i> Anime 
+                </div>
+                <div class="tag"><i class="fas fa-music"> </i> Music 
+                </div>
+            </div>
+            <div class="social-icons"><i class="fab fa-instagram"> </i><i class="fab fa-spotify"> </i><i class="fab fa-whatsapp"> </i><i class="fab fa-github"> </i><i class="fas fa-ellipsis-h"> </i>
+            </div>
+            <div class="links"><a class="link" href="#"> 
+                    <div><i class="fas fa-globe"> </i> Personal Website 
+                    </div> 
+                    <div>
+                    </div> </a><a class="link" href="#"> 
+                    <div><i class="fas fa-fire"> </i> Website Rest APIs 
+                    </div> 
+                    <div>
+                    </div> </a><a class="link" href="#"> 
+                    <div><i class="fas fa-robot"> </i> WhatsApp - Bot 
+                    </div> 
+                    <div>
+                    </div> </a><a class="link" href="#"> 
+                    <div><i class="fas fa-star"> </i> WhatsApp Channel 
+                    </div> 
+                    <div>
+                    </div> </a>
+            </div>
+            <div class="spotify">
+                <p> See what I'm currently listening to on Spotify </p>
+                <div><i class="fab fa-spotify"></i><span>No listening to anything</span>
+                </div>
+            </div>
+            <footer id="footer">
+                <p class="copyright">さようなら、ナツィン！</p>
+            </footer>
+        </div>
+    </body>
+</html>
